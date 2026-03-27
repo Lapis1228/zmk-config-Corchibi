@@ -38,18 +38,12 @@
 &pointer_accel {
     input-type = <INPUT_EV_REL>;
     codes = <INPUT_REL_X INPUT_REL_Y>;
-    
-    /* 基本感度をデフォルト(1000)の100分の1に設定 */
     sensitivity = <10>; 
-
-    /* 加速によるブレをなくすため、常に等倍(1000)に固定 */
     min-factor = <1000>; 
     max-factor = <1000>; 
-
     speed-threshold = <400>;   
     speed-max = <3000>;        
     acceleration-exponent = <1>; 
-
     sensor-dpi = <1200>;       
 };
 
@@ -115,4 +109,13 @@
         zephyr,axis-x = <INPUT_REL_X>;
         zephyr,axis-y = <INPUT_REL_Y>;
     };
+};
+
+/* L側のトラックボール信号を親機でマウスカーソルとして上書き受信する設定 */
+&trackball_listener_L {
+    status = "okay";
+    device = <&trackball_split_L>;
+    input-processors = 
+        <&zip_report_rate_limit 8>,
+        <&pointer_accel>;
 };

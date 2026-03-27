@@ -10,12 +10,12 @@
         default_layer {
             bindings = <
 /* Left: 25 keys */
-&kp Q &kp W &kp E &kp R
-&kp A &kp S &kp D &kp F
-&kp Z &kp X &kp C &kp V
-&kp N1 &kp N2 &kp N3 &kp N4
-&kp N5 &kp N6 &kp N7 &kp N8
-&kp N9 &kp N0 &kp MINUS &kp EQUAL &kp LBRC
+&kp ESC   &kp TAB   &kp LSHFT &kp LCTRL
+&kp A     &kp Z     &kp LGUI  &kp W
+&kp X     &kp LALT  &kp E     &kp D
+&kp R     &kp F     &kp V     &mo 1
+&kp G     &kp B     &mo 2     &kp N8
+&kp Q     &kp S     &kp C     &kp T     &mo 3
 
 /* Right: 25 keys */
 &kp BSPC &kp RET &kp QMARK &kp RIGHT
@@ -40,10 +40,10 @@
 /* Right: 25 keys */
 &trans &trans &trans &trans
 &trans &trans &trans &trans
-&trans &trans &trans &mkp MB3   /* <- ここがK（中クリック） */
-&trans &mkp MB1 &trans &trans   /* <- ここがJ（左クリック） */
+&trans &trans &trans &mkp MB3
+&trans &mkp MB1 &trans &trans
 &trans &trans &trans &trans
-&trans &mkp MB2 &trans &trans &trans /* <- ここがL（右クリック） */
+&trans &mkp MB2 &trans &trans &trans
             >;
         };
 
@@ -78,12 +78,12 @@
 &trans &trans &trans &trans &trans
 
 /* Right: 25 keys */
+&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
 &trans &trans &trans &trans
 &trans &trans &trans &trans
 &trans &trans &trans &trans
 &trans &trans &trans &trans
-&trans &trans &trans &trans
-&trans &trans &trans &trans &trans
+&trans &trans &trans &bt BT_CLR &trans
             >;
         };
     };
