@@ -44,6 +44,13 @@
 
             label = "DIV_MARK";
         };
+
+        mko0: mko0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp K &kp O &kp NUMBER_0 &kp B &kp H &kp U &kp NUMBER_8 &kp LS(C) &kp LS(F) &kp LS(T) &kp AMPERSAND>;
+            label = "MKO0";
+        };
     };
 
     keymap {
@@ -57,7 +64,7 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &kp LEFT_SHIFT  &trans  &kp ASTERISK  &kp AT_SIGN  &trans  &kp SINGLE_QUOTE  &kp EXCLAMATION  &trans  &kp LEFT_PARENTHESIS  &kp PERCENT  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp POUND  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOLLAR  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_BRACKET  &trans  &kp LEFT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT_SHIFT  &trans  &kp ASTERISK  &kp AT_SIGN  &trans  &kp SINGLE_QUOTE  &kp EXCLAMATION  &trans  &kp LEFT_PARENTHESIS  &kp PERCENT  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp POUND  &trans  &trans  &trans  &trans  &mko0  &trans  &kp DOLLAR  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_BRACKET  &trans  &kp LEFT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
