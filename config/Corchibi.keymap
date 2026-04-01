@@ -15,7 +15,7 @@
 
         aa {
             bindings = <&kp A>;
-            key-positions = <36 46 29 30 47>;
+            key-positions = <36 38 39 46 33>;
         };
     };
 
@@ -81,7 +81,7 @@
 
         mouse {
             bindings = <
-&to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &mkp MB5  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &mkp MB4  &trans  &trans
+&to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB5  &trans  &trans  &mkp MB3  &trans  &mkp MB1  &mkp MB4  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans  &trans  &trans
             >;
         };
 
