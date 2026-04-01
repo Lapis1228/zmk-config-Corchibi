@@ -4,12 +4,21 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <2 49>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp ESC  &kp TAB  &kp LSHFT  &kp LCTRL  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &lt 4 LANG2  &kp G  &kp B  &lt 2 SPACE  &kp N8  &kp Q  &kp S  &kp C  &kp T  &lt 3 LANG1  &kp BSPC  &kp RET  &kp QMARK  &kp RIGHT  &kp COLON  &kp UP  &kp DOWN  &kp O  &kp DOT  &kp LEFT  &lt 2 I  &kp K  &kp U  &kp J  &kp M  &kp N4  &kp H  &kp N  &lt 1 ENTER  &kp N8  &kp P  &kp L  &kp COMMA  &kp Y  &kp BACKSPACE
+&kp ESC  &kp TAB  &kp LSHFT  &kp LCTRL  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &lt 4 LANG2  &kp G  &kp B  &lt 2 SPACE  &kp N8  &kp Q  &kp S  &kp C  &kp T  &lt 3 LANG1  &kp DELETE  &kp MINUS  &kp QMARK  &kp RIGHT  &kp SEMICOLON  &kp UP  &kp DOWN  &kp O  &kp DOT  &kp LEFT  &lt 2 I  &kp K  &kp U  &kp J  &kp M  &kp N4  &kp H  &kp N  &lt 1 ENTER  &kp N8  &kp P  &kp L  &kp COMMA  &kp Y  &kp BACKSPACE
             >;
         };
 
