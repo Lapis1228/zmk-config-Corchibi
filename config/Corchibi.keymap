@@ -13,6 +13,33 @@
         };
     };
 
+    macros {
+        mul_mark: mul_mark {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_5>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "MUL_MARK";
+        };
+
+        div_mark: div_mark {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LEFT_ALT>,
+                <&macro_press>,
+                <&kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_4 &kp KP_NUMBER_7>,
+                <&macro_release>;
+
+            label = "DIV_MARK";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -30,7 +57,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &kp NUMBER_0  &trans  &kp NUMBER_7  &kp NUMBER_1  &trans  &kp N8  &kp NUMBER_5  &kp NUMBER_9  &kp NUMBER_6  &kp NUMBER_3  &trans  &kp MINUS  &kp EQUAL  &trans  &trans  &trans  &kp NUMBER_4  &kp NUMBER_2  &kp PLUS  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F10  &trans  &kp F9  &kp F3  &trans  &kp F8  &kp F5  &kp F7  &kp F4  &kp F1  &trans  &div_mark  &trans  &trans  &trans  &kp F12  &kp F6  &kp F2  &mul_mark  &trans
             >;
         };
 
