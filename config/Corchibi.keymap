@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -89,7 +90,7 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &kp LEFT_SHIFT  &trans  &kp ASTERISK  &kp AT_SIGN  &trans  &kp SINGLE_QUOTE  &kp EXCLAMATION  &trans  &kp LEFT_PARENTHESIS  &kp PERCENT  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp POUND  &trans  &trans  &trans  &trans  &mko0  &trans  &kp DOLLAR  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_BRACKET  &trans  &kp LEFT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0  &trans  &kp LEFT_SHIFT  &trans  &kp ASTERISK  &kp AT_SIGN  &trans  &kp SINGLE_QUOTE  &kp EXCLAMATION  &trans  &kp LEFT_PARENTHESIS  &kp PERCENT  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp POUND  &trans  &trans  &trans  &trans  &mko0  &trans  &kp DOLLAR  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_BRACKET  &trans  &kp LEFT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -113,7 +114,7 @@
 
         mouse {
             bindings = <
-&to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB5  &trans  &trans  &mkp MB3  &trans  &mkp MB1  &mkp MB4  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB5  &trans  &trans  &mkp MB3  &trans  &mkp MB1  &mkp MB4  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans  &trans  &trans
             >;
         };
 
