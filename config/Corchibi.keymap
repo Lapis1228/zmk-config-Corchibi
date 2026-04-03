@@ -74,7 +74,7 @@
         mko0: mko0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp M &kp K &kp O &kp NUMBER_0 &kp B &kp H &kp U &kp NUMBER_8 &kp LS(C) &kp LS(F) &kp LS(T) &kp AMPERSAND>;
+            bindings = <&kp M &kp K &kp O &kp NUMBER_0 &kp B &kp H &kp U &kp NUMBER_8 &kp LS(C) &kp LS(F) &kp LS(T) &kp LS(NUMBER_6)>;
             label = "MKO0";
         };
     };
