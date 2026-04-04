@@ -96,7 +96,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &none  &kp NUMBER_0  &trans  &kp NUMBER_7  &kp NUMBER_1  &trans  &kp N8  &kp NUMBER_5  &kp NUMBER_9  &kp NUMBER_6  &kp NUMBER_3  &trans  &kp MINUS  &kp LS(MINUS)  &trans  &none  &none  &kp NUMBER_4  &kp NUMBER_2  &kp LS(SEMICOLON)  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F10  &trans  &kp F9  &kp F3  &trans  &kp F8  &kp F5  &kp F7  &kp F4  &kp F1  &trans  &kp SLASH  &none  &trans  &none  &kp F12  &kp F6  &kp F2  &kp KP_ASTERISK  &trans
+&trans  &trans  &trans  &trans  &kp DOT  &kp NUMBER_0  &trans  &kp NUMBER_7  &kp NUMBER_1  &trans  &kp N8  &kp NUMBER_5  &kp NUMBER_9  &kp NUMBER_6  &kp NUMBER_3  &trans  &kp MINUS  &kp LS(MINUS)  &trans  &none  &none  &kp NUMBER_4  &kp NUMBER_2  &kp LS(SEMICOLON)  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F10  &trans  &kp F9  &kp F3  &trans  &kp F8  &kp F5  &kp F7  &kp F4  &kp F1  &trans  &kp SLASH  &none  &trans  &none  &kp F12  &kp F6  &kp F2  &kp KP_ASTERISK  &trans
             >;
         };
 
