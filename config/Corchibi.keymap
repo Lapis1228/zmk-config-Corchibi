@@ -90,7 +90,7 @@
 
         layer_1 {
             bindings = <
-&to 0  &trans  &kp LEFT_SHIFT  &trans  &kp KP_ASTERISK  &kp LEFT_BRACKET  &trans  &kp LS(N7)  &kp LS(NUMBER_1)  &trans  &kp LS(NUMBER_8)  &kp LS(NUMBER_5)  &kp LS(NUMBER_9)  &kp LS(NUMBER_6)  &kp LS(NUMBER_3)  &trans  &kp SLASH  &none  &trans  &mko0  &none  &kp LS(NUMBER_4)  &kp LS(NUMBER_2)  &kp INT3  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &none  &none  &trans  &kp NON_US_HASH  &kp LS(NUMBER_9)  &kp RIGHT_BRACKET  &kp LS(NUMBER_8)  &none  &trans  &trans  &trans  &trans  &none  &none  &none  &none  &trans  &trans
+&to 0  &trans  &kp LEFT_SHIFT  &trans  &kp KP_ASTERISK  &kp LEFT_BRACKET  &trans  &kp LS(N7)  &kp LS(NUMBER_1)  &trans  &kp LS(NUMBER_8)  &kp LS(NUMBER_5)  &kp LS(NUMBER_9)  &kp LS(NUMBER_6)  &kp LS(NUMBER_3)  &trans  &kp SLASH  &none  &trans  &mko0  &none  &kp LS(NUMBER_4)  &kp LS(NUMBER_2)  &kp INT3  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &none  &none  &trans  &kp NON_US_HASH  &kp LS(NUMBER_9)  &kp RIGHT_BRACKET  &kp LS(NUMBER_8)  &kp LS(COMMA)  &trans  &trans  &trans  &trans  &none  &none  &none  &kp LS(DOT)  &trans  &trans
             >;
         };
 
@@ -102,7 +102,7 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &kp HOME  &none  &trans  &kp PAGE_UP  &none  &trans  &kp UP_ARROW  &kp DOWN_ARROW  &kp PAGE_DOWN  &kp RIGHT_ARROW  &none  &trans  &kp END  &none  &trans  &none  &none  &kp LEFT_ARROW  &none  &none  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &kp PAGE_DOWN  &none  &trans  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp PAGE_UP  &kp LG(LEFT_ARROW)  &none  &trans  &none  &none  &trans  &none  &none  &kp LG(RIGHT_ARROW)  &none  &none  &kp DELETE
+&trans  &trans  &trans  &trans  &kp HOME  &none  &trans  &kp PAGE_UP  &none  &trans  &kp UP_ARROW  &kp DOWN_ARROW  &kp PAGE_DOWN  &kp RIGHT_ARROW  &none  &trans  &kp END  &none  &trans  &trans  &none  &kp LEFT_ARROW  &none  &none  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &kp PAGE_DOWN  &none  &trans  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp PAGE_UP  &kp LG(LEFT_ARROW)  &none  &trans  &none  &none  &trans  &trans  &none  &kp LG(RIGHT_ARROW)  &none  &none  &kp DELETE
             >;
         };
 
