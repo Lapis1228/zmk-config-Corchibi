@@ -102,7 +102,7 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &kp HOME  &none  &trans  &kp PAGE_UP  &none  &trans  &kp UP_ARROW  &kp DOWN_ARROW  &kp PAGE_DOWN  &kp RIGHT_ARROW  &none  &trans  &kp END  &none  &trans  &trans  &none  &kp LEFT_ARROW  &none  &none  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &kp PAGE_DOWN  &none  &trans  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp PAGE_UP  &kp LG(LEFT_ARROW)  &none  &trans  &none  &none  &trans  &trans  &none  &kp LG(RIGHT_ARROW)  &none  &none  &kp DELETE
+&trans  &trans  &trans  &trans  &kp HOME  &none  &trans  &kp PAGE_UP  &kp BACKSPACE  &trans  &kp UP_ARROW  &kp DOWN_ARROW  &kp PAGE_DOWN  &kp RIGHT_ARROW  &kp DELETE  &trans  &kp END  &none  &trans  &trans  &none  &kp LEFT_ARROW  &none  &none  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &kp PAGE_DOWN  &none  &trans  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp PAGE_UP  &kp LG(LEFT_ARROW)  &none  &trans  &none  &none  &trans  &trans  &none  &kp LG(RIGHT_ARROW)  &none  &none  &kp DELETE
             >;
         };
 
